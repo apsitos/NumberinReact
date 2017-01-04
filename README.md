@@ -1,3 +1,7 @@
+# Number Guesser in React
+
+[Spec here](http://frontend.turing.io/projects/number-guesser-in-react.html)
+
 # React Starter Kit
 
 To install the dependencies:
