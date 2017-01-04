@@ -1,44 +1,41 @@
-html {
- font-family: 'Open Sans', sans-serif;
-}
+$font-family: 'Open Sans', sans-serif;
+$background-color: #404041;
+$highlight: #EB008B;
+$main-color: #FFFFFF;
+$border-color: #D0D2D3;
+
 
 header {
  text-align: center;
- background-color: #404041 ;
- padding:  5% 5%;
- }
-
-h1 {
+ background-color: $background-color;
+ color: $highlight;
+ font-family: $font-family;
  font-weight: 700;
  font-size: 55px;
- color: #ED458B ;
-}
-
-p {
- font-size: 27px;
- color: #404041 ;
-}
-
-h2 {
- color: #ED458B ;
- font-size: 192px;
- margin: 10px;
-}
-
-span {
- font-weight: 300;
- color: #E6E7E8 ;
-}
+ padding: 5% 5%;
+ }
 
 body {
- text-align: center;
+  font-family: $font-family;
+  text-align: center;
 }
 
-#guess {
+h3 {
+  font-size: 27px;
+  color: $background-color;
+}
+
+#number {
+  color: #ED458B ;
+  font-size: 192px;
+  margin: 10px;
+}
+
+ button {
  font-family: 'Open Sans', sans-serif;
- background-color: #D0D2D3 ;
+ background-color: $border-color ;
  border: none;
- color: #FFFFFF ;
+ color: $main-color ;
  text-align: center;
  margin: 44px 14px 14px 14px;
  width: 196px;
@@ -49,21 +46,9 @@ body {
  padding: 2px;
 }
 
-#guess:hover {
- background-color: #EB008B ;
- color: #FFFFFF ;
- cursor: pointer;
-}
-
 .inputfield {
  margin: 12px 0;
  padding: 35px 0;
-}
-
-#clear {
- font-size: 20px;
- width: 425px;
- padding: 3px;
 }
 
 #inputbox {
@@ -71,8 +56,8 @@ body {
  height: 34px;
  font-size: 27px;
  font-weight: 300;
- color: #D0D2D3 ;
- border: 2px solid #D0D2D3 ;
+ color: $background-color ;
+ border: 2px solid $border-color ;
  font-family: 'Open Sans', sans-serif;
  padding: 3px 0 4px 10px;
  }
