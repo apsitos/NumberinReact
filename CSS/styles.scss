@@ -15,12 +15,17 @@ header {
  padding: 5% 5%;
  }
 
- body {
+body {
   font-family: $font-family;
   text-align: center;
- }
+}
 
-#message {
+h3 {
+  font-size: 27px;
+  color: $background-color;
+}
+
+#number {
   color: #ED458B ;
   font-size: 192px;
   margin: 10px;
